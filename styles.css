@@ -1,20 +1,27 @@
 body {
-  background: linear-gradient(to right, #ece9e6, #ffffff);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #333;
 }
 h1 {
   color: #1a1a1a;
+  text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
 }
 button {
-  padding: 10px 20px;
-  background-color: #0078d7;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+button:active {
+  transform: scale(0.95);
 }
 button:hover {
   background-color: #005ea6;
+  box-shadow: 0 0 10px #0078d7;
+}
+.wave-divider {
+  background: url('https://svgshare.com/i/uQU.svg') no-repeat center;
+  height: 100px;
+  background-size: cover;
+  margin: 40px 0;
 }
